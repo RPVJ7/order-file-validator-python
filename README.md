@@ -78,10 +78,11 @@ Ensure all order files are:
 ## ▶️ How to Run
 
 1. Fill in credentials in config.ini
-2. Update the bucket_name where the files will be stored, update from and to email addresses
-3. Upload sample order files to incoming_files/YYYYMMDD/ in S3
-4. Run: python pipeline_main.py
-5. Check:
+2. Fill in your SQL instance and database details in sql_server_connector.py file
+3. Update the bucket_name where the files will be stored, update from and to email addresses
+4. Upload sample order files to incoming_files/YYYYMMDD/ in S3
+5. Run: python pipeline_main.py
+6. Check:
     - S3 folders for routed files
     - Email inbox for summary report
     - SQL Server for inserted records
