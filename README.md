@@ -65,7 +65,7 @@ Ensure all order files are:
 - `orders_1.csv`, `orders_2.csv`: Sample input files
 - `product_master.csv`: Product reference file
 
-🎓 Skills Demonstrated
+## 🎓 Skills Demonstrated
 
 - AWS S3 file I/O with boto3
 - Modular Python programming
@@ -75,7 +75,7 @@ Ensure all order files are:
 - Use of config files for credential security
 - Real-world ETL pipeline simulation
 
-▶️ How to Run
+## ▶️ How to Run
 
 1. Fill in credentials in config.ini
 2. Update the bucket_name where the files will be stored, update from and to email addresses
