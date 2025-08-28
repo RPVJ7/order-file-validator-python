@@ -77,7 +77,7 @@ Ensure all order files are:
 
 ## ▶️ How to Run
 
-1. Fill in credentials in config.ini
+1. Fill in credentials for AWS and Gmail in config.ini
 2. Fill in your SQL instance and database details in sql_server_connector.py file
 3. Update the bucket_name where the files will be stored, update from and to email addresses
 4. Upload sample order files to incoming_files/YYYYMMDD/ in S3
