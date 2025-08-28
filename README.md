@@ -79,7 +79,7 @@ Ensure all order files are:
 
 1. Fill in credentials for AWS and Gmail in config.ini
 2. Fill in your SQL instance and database details in sql_server_connector.py file
-3. Update the bucket_name where the files will be stored, update from and to email addresses
+3. Update the bucket_name where the files will be stored, update sender and recipient email addresses in pipeline_main.py file
 4. Upload sample order files to incoming_files/YYYYMMDD/ in S3
 5. Run: python pipeline_main.py
 6. Check:
